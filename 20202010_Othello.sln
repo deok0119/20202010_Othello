@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "20202010_Othello", "20202010_Othello\20202010_Othello.pyproj", "{1CCA1CC1-5DD6-4EE2-B94F-605BF48554F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CCA1CC1-5DD6-4EE2-B94F-605BF48554F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCA1CC1-5DD6-4EE2-B94F-605BF48554F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A30E16ED-42E1-4F36-8C7A-D49980612157}
+	EndGlobalSection
+EndGlobal
