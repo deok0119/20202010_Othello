@@ -147,20 +147,21 @@ def bot_play():
     setState(best_x, best_y, mine)
     reverse_xy(best_x, best_y)
     setScore()
-    turn = other
-        
+
+    turn = other      
     if not setPossible():
         if turn == Turn.BLACK: turn=Turn.WHITE
         else: turn = Turn.BLACK
-
-        if turn == bot_turn:
-            bot_play()
 
         if not setPossible():
             if black_score>white_score: winner="흑돌 승!"
             elif black_score<white_score: winner= "백돌 승!"
             else: winner="무승부"
             showMessage("게임이 종료되었습니다.\n"+winner)
+            return
+
+    if turn == bot_turn:
+        bot_play()
     
     
 
